@@ -43,7 +43,8 @@ var FXComponent = (function (_super) {
     }
     FXComponent.prototype.componentDidMount = function () {
         var _this = this;
-        var server = new WebSocket('ws://localhost:3000');
+        var hostname = location.hostname, port = location.port;
+        var server = new WebSocket("ws://" + hostname + ":" + port);
         server.onmessage = function (event) {
             _this.setState({ fxRates: JSON.parse(event.data) });
         };

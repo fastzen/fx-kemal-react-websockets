@@ -9,7 +9,8 @@ class FXComponent extends Component<{}, FXComponentState> {
   }
 
   componentDidMount() {
-    const server = new WebSocket('ws://localhost:3000');
+    const { hostname, port } = location
+    const server = new WebSocket(`ws://${hostname}:${port}`);
 
       server.onmessage = (event:Array<FXRow>) => {
         this.setState({ fxRates: JSON.parse(event.data) })
