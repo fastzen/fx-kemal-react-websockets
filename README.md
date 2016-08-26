@@ -28,6 +28,8 @@ Data from https://www.truefx.com/ api sent over websockets
 
 Then navigate to [http://0.0.0.0:3000](http://0.0.0.0:3000)
 
+A demo is at [https://fx-kemal-react-websockets.herokuapp.com/](https://fx-kemal-react-websockets.herokuapp.com/)
+
 ## Development
 
 TODO: Write development instructions here
