@@ -44,4 +44,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[fastzen]](https://github.com/[fastzen]) Alastair Aitken - creator, maintainer
+- [fastzen](https://github.com/fastzen) Alastair Aitken - creator, maintainer
